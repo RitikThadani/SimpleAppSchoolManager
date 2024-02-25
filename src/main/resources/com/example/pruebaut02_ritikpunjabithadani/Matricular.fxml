@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="352.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pruebaut02_ritikpunjabithadani.ControlMatricular">
+   <children>
+      <Button fx:id="matricularButton" layoutX="265.0" layoutY="276.0" mnemonicParsing="false" onAction="#matricular" text="Matricular" />
+      <Label layoutX="194.0" layoutY="47.0" text="MATRICULAR">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombreField" alignment="CENTER" layoutX="127.0" layoutY="108.0" promptText="Nombre" />
+      <TextField fx:id="apellidosField" alignment="CENTER" layoutX="326.0" layoutY="108.0" promptText="Apellidos" />
+      <TextField fx:id="CIALField" alignment="CENTER" layoutX="127.0" layoutY="149.0" promptText="CIAL" />
+      <TextField fx:id="emailField" alignment="CENTER" layoutX="127.0" layoutY="188.0" promptText="Email" />
+      <TextField fx:id="tlfField" alignment="CENTER" layoutX="326.0" layoutY="188.0" promptText="Teléfono" />
+      <TextField fx:id="direccionField" alignment="CENTER" layoutX="326.0" layoutY="149.0" promptText="Dirección" />
+      <TextField fx:id="cicloField" alignment="CENTER" layoutX="127.0" layoutY="229.0" promptText="Ciclo" />
+      <TextField fx:id="cursoField" alignment="CENTER" layoutX="326.0" layoutY="229.0" promptText="Curso" />
+   </children>
+</AnchorPane>

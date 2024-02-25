@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="328.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pruebaut02_ritikpunjabithadani.OpcionesControl">
+   <children>
+      <Label layoutX="118.0" layoutY="61.0" text="MENÚ">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="matricularButton" layoutX="113.0" layoutY="118.0" mnemonicParsing="false" onAction="#abrirMatricular" prefHeight="25.0" prefWidth="101.0" text="Matricular" />
+      <Button fx:id="bajaButton" layoutX="113.0" layoutY="161.0" mnemonicParsing="false" onAction="#abrirBaja" prefHeight="25.0" prefWidth="101.0" text="Dar Baja" />
+      <Button layoutX="113.0" layoutY="203.0" mnemonicParsing="false" onAction="#abrirMostrar" prefHeight="25.0" prefWidth="101.0" text="Mostrar Datos" />
+      <Button fx:id="ModificarButton" layoutX="113.0" layoutY="243.0" mnemonicParsing="false" text="Modificar Datos" />
+   </children>
+</AnchorPane>

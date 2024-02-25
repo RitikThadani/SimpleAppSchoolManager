@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="219.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pruebaut02_ritikpunjabithadani.ControlBaja">
+   <children>
+      <Button fx:id="bajaButton" layoutX="200.0" layoutY="148.0" mnemonicParsing="false" onAction="#darDeBaja" text="Dar de Baja" />
+      <Label layoutX="145.0" layoutY="47.0" text="DAR DE BAJA">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CIALField" alignment="CENTER" layoutX="164.0" layoutY="103.0" promptText="CIAL" />
+   </children>
+</AnchorPane>

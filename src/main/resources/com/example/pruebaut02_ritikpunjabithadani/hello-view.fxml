@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pruebaut02_ritikpunjabithadani.HelloController">
+    <children>
+        <Label layoutX="135.0" layoutY="75.0" text="INICIAR SESIÓN">
+            <font>
+                <Font name="System Bold" size="44.0" />
+            </font>
+        </Label>
+        <TextField fx:id="usuarioField" alignment="CENTER" layoutX="226.0" layoutY="175.0" promptText="Nombre de Usuario" />
+        <TextField fx:id="contraField" alignment="CENTER" layoutX="226.0" layoutY="215.0" promptText="Contraseña" />
+        <Button fx:id="iniciarButton" layoutX="257.0" layoutY="269.0" mnemonicParsing="false" onAction="#iniciarSesion" text="Iniciar Sesión" />
+    </children>
+</Pane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pruebaut02_ritikpunjabithadani.ControlMostrar">
+   <children>
+      <Label layoutX="173.0" layoutY="21.0" text="LISTA DE ESTUDIANTES">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="listaEst" layoutX="26.0" layoutY="79.0" prefHeight="280.0" prefWidth="550.0" />
+   </children>
+</AnchorPane>
